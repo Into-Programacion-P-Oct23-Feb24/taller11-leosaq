@@ -21,10 +21,15 @@ public class Problema1 {
     }
 
     public static void imprimirDatos(int[][] datos) {
-        String cadena = "";
-            if (operacion % 2 == 0)
-
-        
+        String cadena = "Los valor pares son:\n";
+        for (int f = 0; f < datos.length; f++) {
+            for (int c = 0; c < datos.length; c++) {
+                if (datos[f][c] % 2 == 0) {
+                    cadena = String.format("%s%d\t", cadena,
+                            datos[f][c]);
+                }
+            }
+        }
+        System.out.printf("%s\n",cadena);
     }
-
 }
