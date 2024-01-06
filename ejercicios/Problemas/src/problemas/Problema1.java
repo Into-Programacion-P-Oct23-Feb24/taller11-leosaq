@@ -24,7 +24,8 @@ public class Problema1 {
         String cadena = "Los valor pares son:\n";
         for (int f = 0; f < datos.length; f++) {
             for (int c = 0; c < datos.length; c++) {
-                if (datos[f][c] % 2 == 0) {
+                if (datos[f][c] % 2 == 0) { //Metodo implementado para saber 
+                                            //que numeros son pares
                     cadena = String.format("%s%d\t", cadena,
                             datos[f][c]);
                 }

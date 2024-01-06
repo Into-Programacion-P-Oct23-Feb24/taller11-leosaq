@@ -26,11 +26,9 @@ public class Problema2 {
         opcion = entrada.nextInt();
         if (opcion == 1) {
             obtenerAreaCuadrado();
-        }
-        if (opcion == 2) {
+        }else if (opcion == 2) {
             obtenerAreaTriangulo();
-        }
-        if (opcion == 3) {
+        }else if (opcion == 3) {
             obtenerAreaRectangulo();
         }
     }
